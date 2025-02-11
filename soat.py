@@ -25,8 +25,8 @@ cards = ReplyKeyboardMarkup(
 )
 numbers = ReplyKeyboardMarkup(
     keyboard=[
-        [KeyboardButton(text="📞 Telefon 1")],
-        [KeyboardButton(text="📞 Telefon 2")],
+        [KeyboardButton(text="🔵 Telefon 1")],
+        [KeyboardButton(text="🔴 Telefon 2")],
         [KeyboardButton(text="🔙 Orqaga")]
     ]
 )
