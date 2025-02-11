@@ -50,7 +50,7 @@ user_states = {}
 
 @dp.message(lambda message: message.text == "/start")
 async def start(message: types.Message):
-    await message.answer("🔹 Ma'lumotlaringizni saqlash uchun quyidagi tugmalardan foydalaning:", reply_markup=menu_buttons)
+    await message.answer("🔹 Ma'lumotlari olish uchun tugmalardan foydalaning:", reply_markup=menu_buttons)
 
 @dp.message(lambda message: message.text == "💳 Kartalar")
 async def kartala(message: types.Message):
